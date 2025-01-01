@@ -315,7 +315,7 @@ const FileCard: React.FC<FileCardProps> = (props: FileCardProps) => {
               >
                 <div className={"file-card-name"}>{localName}</div>
                 <div className={"file-card-size"}>{sizeFormatted}</div>
-                <div className={"file-card-size"}>{shrinkWord(localType)}</div>
+                <div className={"file-card-size"}>{localType}</div>
               </div>
             </div>
           </Layer>
